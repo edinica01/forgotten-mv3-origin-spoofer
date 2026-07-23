@@ -5,7 +5,8 @@
     "action": {
       "type": "modifyHeaders",
       "requestHeaders": [
-        { "header": "Origin", "operation": "set", "value": "https://nekto.me" }
+        { "header": "Origin", "operation": "set", "value": "https://nekto.me" },
+        { "header": "Referer", "operation": "set", "value": "https://nekto.me/audiochat" }
       ]
     },
     "condition": {
