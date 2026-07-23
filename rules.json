@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "Origin", "operation": "set", "value": "https://nekto.me" }
+      ]
+    },
+    "condition": {
+      "regexFilter": "nekto\\.me",
+      "resourceTypes": [
+        "main_frame", "sub_frame", "stylesheet", "script", "image", "font",
+        "object", "xmlhttprequest", "ping", "csp_report", "media",
+        "websocket", "webtransport", "webbundle", "other"
+      ]
+    }
+  }
+]
